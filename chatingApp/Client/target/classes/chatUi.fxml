@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="container" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.enset.controllers.controller">
+   <children>
+      <TextField fx:id="userName" layoutX="161.0" layoutY="161.0" prefHeight="40.0" prefWidth="274.0" />
+      <Button layoutX="246.0" layoutY="224.0" mnemonicParsing="false" onAction="#join" prefHeight="30.0" prefWidth="98.0" style="-fx-background-color: #0a26c4; -fx-text-fill: #ffffff;" text="Join chat room" />
+   </children>
+</AnchorPane>
