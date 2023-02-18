@@ -38,7 +38,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_directory_selection": "C:/Users/yassi/OneDrive/Desktop/PROJECTS/demo1/server/src/main/java"
+    "last_directory_selection": "C:/Users/yassi/OneDrive/Desktop/PROJECTS/demo1/server/src/main/java",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -48,7 +49,7 @@
       <recent name="C:\Users\yassi\OneDrive\Desktop\PROJECTS\demo1\server" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.enset.javafxClient">
+  <component name="RunManager">
     <configuration name="client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client" />
       <module name="server" />
@@ -96,15 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.com.enset.javafxClient" />
-        <item itemvalue="Application.com.enset.serverMultiThreads" />
-        <item itemvalue="Application.javafxClient" />
-        <item itemvalue="Application.fxClient" />
-        <item itemvalue="Application.client" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,6 +118,7 @@
       <workItem from="1676571336453" duration="8648000" />
       <workItem from="1676580953735" duration="1364000" />
       <workItem from="1676582476657" duration="310000" />
+      <workItem from="1676736860988" duration="32000" />
     </task>
     <servers />
   </component>
