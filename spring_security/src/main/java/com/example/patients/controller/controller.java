@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
@@ -31,6 +32,7 @@ public class controller {
         patientsService.deletePatientById(id);
         return "redirect:/";
     }
+    @PreAuthorize("hasAnyRole()")
     @GetMapping("/editPatient")
     public String editPatient(@RequestParam("id") Long id , Model model){
         model.addAttribute("patientToEdite",patientsService.findById(id));
@@ -55,6 +57,13 @@ public class controller {
         model.addAttribute("listPatients",patientsService.findByKeyword(keyword));
         return "index";
     }
+
+
+    @GetMapping("/users")
+    public String users(){
+        return "users";
+    }
+
     @InitBinder
     public void initBinder(WebDataBinder binder) {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
